@@ -1,0 +1,35 @@
+
+span.premium-link {
+	color: #d54e21;
+}
+
+#otb-dashboard-news .inside {
+    padding: 2px 0 0 0;
+}
+
+#otb-dashboard-news .rss-widget {
+    padding: 0 12px 15px 12px;
+}
+
+.otb-notice {
+	border-left-color: #000000;
+}
+
+.otb-notice .container {
+	display: inline-block;
+	width: 100%;
+}
+
+.otb-notice .logo {
+	float: left;
+	margin: .5em .7em .5em 0;
+}
+
+.otb-notice p {
+	float: left;
+	display: inline-block;
+}
+
+.otb-notice .dismiss {
+	padding-left: .4em;
+}

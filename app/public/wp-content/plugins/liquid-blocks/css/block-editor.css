@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/wp/
+*/
+.text-right {
+    text-align: right;
+}
+.liquid_blocks_row {
+    display: block;
+}
+.liquid_blocks_none {
+    display: none;
+}
+.liquid_blocks_tags {
+    border: 1px solid #e2e4e7;
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    padding: .25rem .5rem;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+.liquid_blocks_tags:hover,
+.liquid_blocks_bnr:hover{
+    color: #fff;
+    background: #00A5D4;
+}
+.liquid_blocks_bnr {
+    border: 1px solid #e2e4e7;
+    display: block;
+    margin: 0 .25rem .25rem 0;
+    padding: .5rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #32BDEB;
+    color: #fff;
+    border-radius: 5px;
+    font-size: large;
+}
+.liquid_blocks_bnr:before {
+    font-family: dashicons;
+    content: "\f538";
+    display: block;
+    font-size: 2em;
+    line-height: 1.2;
+}
+.liquid_blocks_bnr:after {
+    content: "LIQUID BLOCKS";
+    display: block;
+    line-height: 1.2;
+}
+/* Scalability */
+.liquid_blocks_pro, .liquid_blocks_lp, .liquid_blocks_sp {
+    display: none;
+}
+
+/* Gallery */
+.liquid_blocks_modal {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+.liquid_blocks_modal.active {
+    display: block !important;
+    width: auto;
+    height: auto;
+    z-index: 100000;
+}
+.liquid_blocks_modal_gallery {
+    position: fixed;
+    width: 95%;
+    height: 95vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 1rem;
+    z-index: 100001;
+    border: 1px solid #aaa;
+    background: #fff;
+    box-shadow: 0 3px 10px #aaa;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.liquid_blocks_modal_gallery h3 {
+    font-size: medium;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: 1rem .5rem;
+    background-color: #f1f1f1;
+}
+.liquid_blocks_modal_gallery h3 small {
+    display: inline-block;
+    background-color: #00000012;
+    padding: 1px 7px;
+    border-radius: 5px;
+}
+.liquid_blocks_modal_gallery > a {
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    height: auto;
+    margin: 1%;
+    cursor: pointer;
+    font-size: small;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.liquid_blocks_modal_gallery > a img {
+    width: 100%;
+    height: auto;
+}
+.liquid_blocks_modal_gallery > a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: .25rem;
+    font-size: small;
+    line-height: 1;
+    background-color: #ffffffb3;
+}
+
+/* style */
+.editor-styles-wrapper .is-style-heapup {
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,1484 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: citylogic\n"
+"POT-Creation-Date: 2020-05-02 11:28+0200\n"
+"PO-Revision-Date: 2017-08-18 23:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23 library/template-parts/content-none.php:30
+msgid "Back to Homepage"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer-library/custom-controls/dropdown-image-sizes.php:36
+msgid "Full"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:18
+msgid "Standard Fonts"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:20
+msgid "Google Fonts"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:125
+msgid "All"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:126
+msgid "Cyrillic"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:127
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:128
+msgid "Devanagari"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:129
+msgid "Greek"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:130
+msgid "Greek Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:131
+msgid "Khmer"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:132
+msgid "Latin"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:133
+msgid "Latin Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:134
+msgid "Vietnamese"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:214
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:218
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:222
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: customizer/customizer-options.php:55
+msgid "Site Identity"
+msgstr ""
+
+#: customizer/customizer-options.php:62
+msgid "Logo"
+msgstr ""
+
+#: customizer/customizer-options.php:74
+msgid "Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:83
+msgid "General"
+msgstr ""
+
+#: customizer/customizer-options.php:90
+msgid "Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:98
+msgid "Primary Color"
+msgstr ""
+
+#: customizer/customizer-options.php:106
+msgid "Secondary Color"
+msgstr ""
+
+#: customizer/customizer-options.php:117
+#: customizer/customizer-options.php:324
+msgid "Site Logo Area"
+msgstr ""
+
+#: customizer/customizer-options.php:124
+#: customizer/customizer-options.php:168
+#: customizer/customizer-options.php:254
+msgid "Color"
+msgstr ""
+
+#: customizer/customizer-options.php:132
+msgid "Site Title Color"
+msgstr ""
+
+#: customizer/customizer-options.php:140
+#: customizer/customizer-options.php:176
+msgid "Solid - Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:144
+msgid ""
+"This is the color that the text will be when the site logo area is "
+"solid"
+msgstr ""
+
+#: customizer/customizer-options.php:149
+#: customizer/customizer-options.php:185
+msgid "Transparent - Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:153
+msgid ""
+"This is the color that the text will be when the site logo area is "
+"transparent"
+msgstr ""
+
+#: customizer/customizer-options.php:161
+#: customizer/customizer-options.php:344
+#: customizer/customizer-options.php:845
+msgid "Navigation Menu"
+msgstr ""
+
+#: customizer/customizer-options.php:180
+msgid ""
+"This is the color that the text will be when the navigation menu is "
+"solid"
+msgstr ""
+
+#: customizer/customizer-options.php:189
+msgid ""
+"This is the color that the text will be when the navigation menu is "
+"transparent"
+msgstr ""
+
+#: customizer/customizer-options.php:197
+msgid "Page Content"
+msgstr ""
+
+#: customizer/customizer-options.php:204
+msgid "Heading Color"
+msgstr ""
+
+#: customizer/customizer-options.php:212
+msgid "Body Text Color"
+msgstr ""
+
+#: customizer/customizer-options.php:220
+msgid "Link Color"
+msgstr ""
+
+#: customizer/customizer-options.php:228
+msgid "Link Rollover Color"
+msgstr ""
+
+#: customizer/customizer-options.php:236
+msgid "Form Input Text Color"
+msgstr ""
+
+#: customizer/customizer-options.php:247 functions.php:309
+msgid "Footer"
+msgstr ""
+
+#: customizer/customizer-options.php:266
+msgid "Styling"
+msgstr ""
+
+#: customizer/customizer-options.php:275
+msgid "Paragraph"
+msgstr ""
+
+#: customizer/customizer-options.php:285
+msgid "Line Height"
+msgstr ""
+
+#: customizer/customizer-options.php:297
+msgid "Page Builders"
+msgstr ""
+
+#: customizer/customizer-options.php:303
+msgid "Use theme styles"
+msgstr ""
+
+#: customizer/customizer-options.php:315
+msgid "Header"
+msgstr ""
+
+#: customizer/customizer-options.php:331
+msgid "Shop Links"
+msgstr ""
+
+#: customizer/customizer-options.php:335
+msgid ""
+"Display the My Account and Checkout links when WooCommerce is active."
+msgstr ""
+
+#: customizer/customizer-options.php:355
+msgid "Alignment"
+msgstr ""
+
+#: customizer/customizer-options.php:369
+msgid "Rollover Style"
+msgstr ""
+
+#: customizer/customizer-options.php:381
+msgid "Header Text"
+msgstr ""
+
+#: customizer/customizer-options.php:388
+msgid "Info Text"
+msgstr ""
+
+#: customizer/customizer-options.php:391
+msgid "Call Us: 555-CITYLOGIC"
+msgstr ""
+
+#: customizer/customizer-options.php:401
+msgid "Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:408
+msgid "Transparent"
+msgstr ""
+
+#: customizer/customizer-options.php:420
+msgid "Social Media Links"
+msgstr ""
+
+#: customizer/customizer-options.php:426
+msgid "Show right aligned social media buttons"
+msgstr ""
+
+#: customizer/customizer-options.php:434
+msgid "Email Address"
+msgstr ""
+
+#: customizer/customizer-options.php:440
+msgid "Skype Name"
+msgstr ""
+
+#: customizer/customizer-options.php:446
+msgid "Tumblr"
+msgstr ""
+
+#: customizer/customizer-options.php:452
+msgid "Flickr"
+msgstr ""
+
+#: customizer/customizer-options.php:463
+msgid "Search"
+msgstr ""
+
+#: customizer/customizer-options.php:469
+msgid "Show Search in the Navigation Menu"
+msgstr ""
+
+#: customizer/customizer-options.php:481
+msgid "Navigation Menu Search type"
+msgstr ""
+
+#: customizer/customizer-options.php:490
+msgid "Shortcode"
+msgstr ""
+
+#: customizer/customizer-options.php:493
+msgid "Enter the shortcode given by the search plugin you're using."
+msgstr ""
+
+#: customizer/customizer-options.php:501
+msgid "Default Search Field Text"
+msgstr ""
+
+#: customizer/customizer-options.php:504
+msgid "Search..."
+msgstr ""
+
+#: customizer/customizer-options.php:509
+msgid "No Search Results Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:512
+msgid "Nothing Found!"
+msgstr ""
+
+#: customizer/customizer-options.php:516
+msgid "No Search Results Message"
+msgstr ""
+
+#: customizer/customizer-options.php:519
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"some different keywords."
+msgstr ""
+
+#: customizer/customizer-options.php:529
+#: customizer/customizer-options.php:540
+msgid "Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:552
+msgid ""
+"<a href=\"https://www.outtheboxthemes.com/documentation/citylogic/"
+"homepage-slider/default-slider/\" rel=\"nofollow\" target=\"_blank"
+"\">Read a guide on how to set up the Default Slider</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:560
+msgid ""
+"<a href=\"https://www.outtheboxthemes.com/documentation/citylogic/"
+"homepage-slider/slider-plugin/\" rel=\"nofollow\" target=\"_blank"
+"\">Read a guide on using a slider plugin</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:565
+msgid "Post Categories"
+msgstr ""
+
+#: customizer/customizer-options.php:568
+msgid ""
+"Select the categories of the posts you want to display in the slider. "
+"The featured image will be the slide image and the post content will "
+"display over it. Hold down the Ctrl (windows) / Command (Mac) button "
+"to select multiple categories."
+msgstr ""
+
+#: customizer/customizer-options.php:573
+#: customizer/customizer-options.php:646
+msgid "Overlay Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:587
+#: customizer/customizer-options.php:670
+msgid "Display a drop shadow on the text overlay text"
+msgstr ""
+
+#: customizer/customizer-options.php:595
+msgid "Slider image has a minimum width"
+msgstr ""
+
+#: customizer/customizer-options.php:603
+#: customizer/customizer-options.php:686
+msgid "Minimum Width"
+msgstr ""
+
+#: customizer/customizer-options.php:611
+msgid "Transition Speed"
+msgstr ""
+
+#: customizer/customizer-options.php:615
+msgid ""
+"The speed it takes to transition between slides in milliseconds. 1000 "
+"milliseconds equals 1 second."
+msgstr ""
+
+#: customizer/customizer-options.php:620
+msgid "Slider Shortcode"
+msgstr ""
+
+#: customizer/customizer-options.php:623
+msgid "Enter the shortcode given by the slider plugin you're using."
+msgstr ""
+
+#: customizer/customizer-options.php:632
+msgid "Header Image"
+msgstr ""
+
+#: customizer/customizer-options.php:638
+msgid ""
+"Please note: The header image will not display on your site as the "
+"slider is currently enabled. To make the header image visible you will "
+"first need to disable the slider."
+msgstr ""
+
+#: customizer/customizer-options.php:660
+msgid "Text"
+msgstr ""
+
+#: customizer/customizer-options.php:663
+msgid "<h2>Super Adaptable</h2><p>Anything and everything you need</p>"
+msgstr ""
+
+#: customizer/customizer-options.php:664
+msgid ""
+"Use <h2></h2> tags around heading text and <p></p> tags around body "
+"text."
+msgstr ""
+
+#: customizer/customizer-options.php:678
+msgid "Header image has a minimum width"
+msgstr ""
+
+#: customizer/customizer-options.php:701 functions.php:838
+msgid "WooCommerce"
+msgstr ""
+
+#: customizer/customizer-options.php:710
+msgid "Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:717
+msgid "Display breadcrumbs"
+msgstr ""
+
+#: customizer/customizer-options.php:728
+msgid "Product Catalog"
+msgstr ""
+
+#: customizer/customizer-options.php:735
+#: customizer/customizer-options.php:772
+#: customizer/customizer-options.php:798
+msgid "Full width"
+msgstr ""
+
+#: customizer/customizer-options.php:744
+msgid "Display a loader animation on thumbnails"
+msgstr ""
+
+#: customizer/customizer-options.php:753
+msgid "Products per page"
+msgstr ""
+
+#: customizer/customizer-options.php:757
+msgid "How many products should be shown per page?"
+msgstr ""
+
+#: customizer/customizer-options.php:765
+msgid "Product"
+msgstr ""
+
+#: customizer/customizer-options.php:780
+msgid "Enable zoom on product image"
+msgstr ""
+
+#: customizer/customizer-options.php:791
+msgid "Product Category and Tag Page"
+msgstr ""
+
+#: customizer/customizer-options.php:814
+msgid "Fonts"
+msgstr ""
+
+#: customizer/customizer-options.php:820
+msgid "Site Title"
+msgstr ""
+
+#: customizer/customizer-options.php:829
+msgid "Size"
+msgstr ""
+
+#: customizer/customizer-options.php:837
+#: customizer/customizer-options.php:854
+msgid "Uppercase"
+msgstr ""
+
+#: customizer/customizer-options.php:862
+msgid "Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:871
+msgid "Body Text"
+msgstr ""
+
+#: customizer/customizer-options.php:884 functions.php:213
+msgid "Blog"
+msgstr ""
+
+#: customizer/customizer-options.php:890
+msgid "Featured Image Size"
+msgstr ""
+
+#: customizer/customizer-options.php:902
+msgid "Text length"
+msgstr ""
+
+#: customizer/customizer-options.php:911
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/customizer-options.php:919
+msgid "Read More Text"
+msgstr ""
+
+#: customizer/customizer-options.php:922
+msgid "READ MORE"
+msgstr ""
+
+#: customizer/customizer-options.php:931
+msgid "Website Text"
+msgstr ""
+
+#: customizer/customizer-options.php:936
+msgid "404 Page Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:939
+msgid "404!"
+msgstr ""
+
+#: customizer/customizer-options.php:943
+msgid "404 Page Message"
+msgstr ""
+
+#: customizer/customizer-options.php:946
+msgid "The page you were looking for cannot be found!"
+msgstr ""
+
+#: customizer/customizer-options.php:954
+msgid "Media"
+msgstr ""
+
+#: customizer/customizer-options.php:960
+msgid "Crisp images"
+msgstr ""
+
+#: customizer/customizer-options.php:964
+msgid ""
+"<p>This will remove the default anti-aliasing done to scaled images by "
+"browsers creating a more crisp image.</p>"
+msgstr ""
+
+#: footer.php:35
+#, php-format
+msgid "Theme by %1$s"
+msgstr ""
+
+#: functions.php:15
+#, php-format
+msgid ""
+"<h2>Super Adaptable</h2><p>Anything and everything you need</p><p><a "
+"href=\"%1$s\" target=\"_blank\" class=\"button no-bottom-margin\">"
+"%2$s</a></p>"
+msgstr ""
+
+#: functions.php:15 functions.php:19
+msgid "Read More"
+msgstr ""
+
+#: functions.php:19
+#, php-format
+msgid ""
+"<h2>Your Go-to Theme</h2><p>From Out the Box</p><p><a href=\"%1$s\" "
+"target=\"_blank\" class=\"button no-bottom-margin\">%2$s</a></p>"
+msgstr ""
+
+#: functions.php:77
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:175
+msgid "Out the Box News"
+msgstr ""
+
+#: functions.php:215 functions.php:224 functions.php:234
+msgid "(opens in a new window)"
+msgstr ""
+
+#: functions.php:222
+#: upgrade/library/template-parts/content-upgrade.php:72
+msgid "Documentation"
+msgstr ""
+
+#: functions.php:232
+msgid "Get Premium"
+msgstr ""
+
+#: functions.php:299
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:317
+msgid "Footer Bottom Bar - Right"
+msgstr ""
+
+#: functions.php:597
+msgid "Out of Stock"
+msgstr ""
+
+#: functions.php:788
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: functions.php:793
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: functions.php:798
+msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#: functions.php:803
+msgid "Beam me up Scotty"
+msgstr ""
+
+#: functions.php:808 functions.php:823
+msgid "Recent Posts Widget Extended"
+msgstr ""
+
+#: functions.php:813
+msgid "WPForms"
+msgstr ""
+
+#: functions.php:818
+msgid "Photo Gallery by Supsystic"
+msgstr ""
+
+#: functions.php:828
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: functions.php:833
+msgid "Instagram Slider Widget"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to "
+"ensure maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to "
+"ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural ""
+"There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the "
+"%1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the "
+"%1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:399
+#: library/includes/class-tgm-plugin-activation.php:3021
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:400
+#: library/includes/class-tgm-plugin-activation.php:2824
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:820
+#: library/includes/class-tgm-plugin-activation.php:3430
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:927
+msgid ""
+"The remote plugin package does not contain a folder with the desired "
+"slug and renaming did not work."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:927
+#: library/includes/class-tgm-plugin-activation.php:930
+msgid ""
+"Please contact the plugin provider and ask them to package their "
+"plugin according to the WordPress guidelines."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:930
+msgid ""
+"The remote plugin package consists of more than one file, but the "
+"files are not packaged in a folder."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1108
+#: library/includes/class-tgm-plugin-activation.php:2820
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1873
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2159
+msgid "Required"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2162
+msgid "Recommended"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2178
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2181
+msgid "External Source"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2184
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2201
+msgid "Not Installed"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2205
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2207
+msgid "Active"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2213
+msgid "Required Update not Available"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2216
+msgid "Requires Update"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2219
+msgid "Update recommended"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2227
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2272
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2275
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2278
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2281
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2363
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2371
+msgid "Installed version:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2379
+msgid "Minimum required version:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2391
+msgid "Available version:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2414
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to "
+"the Dashboard</a>"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2428
+msgid "Plugin"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2429
+msgid "Source"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2430
+msgid "Type"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2434
+msgid "Version"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2435
+msgid "Status"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2483
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2487
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2492
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2562
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2595
+msgid "Install"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2601
+msgid "Update"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2604
+msgid "Activate"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2635
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2637
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2673
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2675
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2780
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3020
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3354
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3356
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3357
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3361
+msgid ""
+"The installation and activation process is starting. This process may "
+"take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3362
+#: library/includes/class-tgm-plugin-activation.php:3368
+msgid "Show Details"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3362
+#: library/includes/class-tgm-plugin-activation.php:3368
+msgid "Hide Details"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3363
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3367
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3369
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: library/includes/template-tags.php:25
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/includes/template-tags.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts "
+msgstr ""
+
+#: library/includes/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: library/includes/template-tags.php:63
+msgctxt "Previous post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/includes/template-tags.php:64
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+#: library/includes/template-tags.php:91
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: library/includes/template-tags.php:96
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: library/includes/template-tags.php:112
+#: library/includes/template-tags.php:118
+msgid ", "
+msgstr ""
+
+#: library/includes/template-tags.php:114
+#, php-format
+msgid "Posted in %1$s "
+msgstr ""
+
+#: library/includes/template-tags.php:120
+#, php-format
+msgid "Tagged %1$s "
+msgstr ""
+
+#: library/includes/template-tags.php:125
+msgid "Leave a comment "
+msgstr ""
+
+#: library/includes/template-tags.php:125
+msgid "1 Comment "
+msgstr ""
+
+#: library/includes/template-tags.php:125
+msgid "% Comments "
+msgstr ""
+
+#: library/includes/template-tags.php:129
+#: library/includes/template-tags.php:178
+#: library/includes/template-tags.php:218
+#: library/template-parts/content-page.php:22
+msgid "Edit"
+msgstr ""
+
+#: library/includes/template-tags.php:178
+msgid "Pingback:"
+msgstr ""
+
+#: library/includes/template-tags.php:192
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/includes/template-tags.php:195
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: library/includes/template-tags.php:215
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/includes/woocommerce-inc.php:7
+#: library/template-parts/shop-links.php:22
+msgid "View your shopping cart"
+msgstr ""
+
+#: library/includes/woocommerce-inc.php:9
+#: library/template-parts/shop-links.php:24
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/woocommerce-inc.php:12
+#: library/template-parts/shop-links.php:27
+msgid "Checkout"
+msgstr ""
+
+#: library/template-parts/content-image.php:39
+#: library/template-parts/content-page.php:15
+#: library/template-parts/content-search.php:59
+#: library/template-parts/content-single.php:27
+#: library/template-parts/content.php:55
+msgid "Pages:"
+msgstr ""
+
+#: library/template-parts/content-image.php:43
+msgid "Page"
+msgstr ""
+
+#: library/template-parts/content-image.php:57
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: library/template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</"
+"a>."
+msgstr ""
+
+#: library/template-parts/content-none.php:36
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: library/template-parts/content-search.php:48
+#: library/template-parts/content.php:44
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/template-parts/shop-links.php:7
+#: library/template-parts/shop-links.php:8
+msgid "My Account"
+msgstr ""
+
+#: library/template-parts/shop-links.php:13
+msgid "Login"
+msgstr ""
+
+#: library/template-parts/shop-links.php:14
+msgid "Sign In&nbsp;&nbsp;|&nbsp;&nbsp;Register"
+msgstr ""
+
+#: library/template-parts/slider.php:126
+msgid "Demo Slide"
+msgstr ""
+
+#: library/template-parts/social-links.php:5
+msgid "Send us an email"
+msgstr ""
+
+#: library/template-parts/social-links.php:11
+msgid "Contact us on Skype"
+msgstr ""
+
+#: library/template-parts/social-links.php:17
+msgid "Find us on Tumblr"
+msgstr ""
+
+#: library/template-parts/social-links.php:23
+msgid "Find us on Flickr"
+msgstr ""
+
+#: product-searchform.php:14
+msgid "Search for:"
+msgstr ""
+
+#: product-searchform.php:15
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: product-searchform.php:15 searchform.php:9
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: trt-customize-pro/class-customize.php:76 upgrade/upgrade.php:14
+#: upgrade/upgrade.php:15
+msgid "CityLogic Premium"
+msgstr ""
+
+#: trt-customize-pro/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:4
+msgid "About CityLogic"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:13
+msgid "<span>CityLogic Premium </span><em>$25</em>"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:18
+#, php-format
+msgid ""
+"<strong>All settings for CityLogic</strong> are neatly built into the "
+"<a href=\"%s\">WordPress Customizer</a> allowing you to preview their "
+"effects before publishing them to your live site."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:21
+#, php-format
+msgid ""
+"<strong><a href=\"%s\" target=\"_blank\">Read a guide on how to "
+"install the Premium theme</a></strong>"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:30
+msgid "Elementor Page Layouts"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:33
+msgid ""
+"CityLogic Premium offers a range of Elementor page layouts "
+"conveniently built into the theme."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:41
+msgid "CityLogic Premium is a once off payment of $25"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:45
+msgid ""
+"View the CityLogic Premium demo and try out all the settings neatly "
+"built into the Customizer"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:49
+msgid "CityLogic Premium Demo"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:56
+msgid "Download a simple starter Child Theme for CityLogic"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:57
+#, php-format
+msgid ""
+"Or learn more about <a href=\"%s\" target=\"_blank\">creating / "
+"editing a Child Theme</a>"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:61
+msgid "CityLogic Child Theme"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:68
+msgid ""
+"We have growing documentation to help you set up your website using "
+"CityLogic."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:79
+msgid "Have you enjoyed using CityLogic?"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:80
+msgid "Please help by giving us a rating on WordPress.org :)"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:84
+msgid "Give CityLogic a rating"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:89
+#, php-format
+msgid ""
+"Theme: CityLogic, built by <a href=\"%s\" target=\"_blank\">Out the "
+"Box</a>"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:98
+msgid ""
+"We aim to keep our prices lower than other theme shops while still "
+"offering you quality WordPress themes."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:100
+msgid ""
+"Upgrading will support us and enable us to keep building WordPress "
+"themes."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:102
+#, php-format
+msgid ""
+"If you're enjoying using CityLogic please let us know by <a href='%s' "
+"target='_blank'>giving us a rating</a>."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:106
+msgid "Theme Ratings"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:118
+msgid "Brandon Revering"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:121
+msgid "Best theme I have used to date, absolutely in love with it."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:127
+msgid "Libby Lindblom"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:130
+msgid ""
+"I LOVE CityLogic! It's perfect and so beautiful! It's also very easy "
+"to use!"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:136
+msgid "Jelle van Andel"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:139
+msgid ""
+"I will recommend your theme for both design, ease AND customer service."
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:145
+msgid "Mario L&otilde;hmus"
+msgstr ""
+
+#: upgrade/library/template-parts/content-upgrade.php:148
+msgid "I love your theme for it's options :)"
+msgstr ""

@@ -1,0 +1,126 @@
+
+.customize-control input[type=text].pixels,
+.customize-control input[type=text].percentage,
+.customize-control input[type=text].milliseconds {
+	width: 50px;
+}
+
+/*
+.customize-control-info {
+	background-color: #e2f1ff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 -12px 0 -10px;
+    padding: 15px 15px 16px;
+    font-size: 12px;
+	display: block;
+}
+*/
+
+.customize-control-warning {
+	color: red;
+	font-weight: 400;
+}
+
+.customize-control.hidden {
+	display: none !important;
+}
+
+#customize-theme-controls #accordion-section-colors {
+	display: none !important;
+}
+
+#customize-theme-controls #accordion-panel-citylogic-colors h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-general-colors h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-site-logo-area-colors h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-navigation-menu-colors h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-page-content-colors h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-footer-colors h3:hover,
+
+#customize-theme-controls #accordion-panel-citylogic-styling h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-styling-paragraph h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-styling-page-builders h3:hover,
+
+#customize-theme-controls #accordion-section-citylogic-fonts h3:hover,
+#customize-theme-controls #accordion-panel-citylogic-header h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-header-site-logo-area h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-header-navigation-menu h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-header-text h3:hover,
+	#customize-theme-controls #accordion-section-citylogic-header-opacity h3:hover,
+
+#customize-theme-controls #accordion-section-citylogic-social h3:hover,
+#customize-theme-controls #accordion-section-citylogic-search h3:hover,
+#customize-theme-controls #accordion-section-citylogic-slider h3:hover,
+#customize-theme-controls #accordion-section-citylogic-blog h3:hover,
+#customize-theme-controls #accordion-section-citylogic-website-text h3:hover,
+#customize-theme-controls #accordion-section-citylogic-media h3:hover {
+    background-color: #0082cd;
+	color: #FFFFFF;
+}
+
+#customize-theme-controls #accordion-panel-citylogic-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-general-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-site-logo-area-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-navigation-menu-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-page-content-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-footer-colors:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-citylogic-styling:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-styling-paragraph:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-styling-page-builders:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-citylogic-fonts:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-panel-citylogic-header:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-header-site-logo-area:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-header-navigation-menu:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-header-text:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-citylogic-header-opacity:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-citylogic-social:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-citylogic-search:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-citylogic-slider:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-citylogic-blog:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-citylogic-website-text:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-citylogic-media:hover>.accordion-section-title:after {
+	color: #FFFFFF !important;
+}
+
+#accordion-section-colors.control-section.open h3,
+#accordion-section-citylogic-fonts.control-section.open h3,
+#accordion-section-citylogic-layout.control-section.open h3,
+#accordion-section-citylogic-header.control-section.open h3,
+#accordion-section-citylogic-slider.control-section.open h3,
+#accordion-section-citylogic-blog.control-section.open h3,
+#accordion-section-citylogic-website-text.control-section.open h3,
+#accordion-section-citylogic-footer.control-section.open h3,
+#accordion-section-citylogic-social.control-section.open h3,
+#sub-accordion-section-citylogic-search.control-section.open h3 {
+    background-color: #0082cd !important;
+	color: #FFFFFF;
+}
+
+/*
+.out-the-box-upsell {
+   padding: 10px 0 5px;
+}
+.out-the-box-upsell-title {
+   font-weight: 600;
+}
+.out-the-box-upsell-btn {
+   background-color: #60afbe;
+   display: inline-block;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 3px;
+   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+   margin: 8px 0 0;
+   padding: 8px 20px 10px;
+   color: #FFFFFF;
+}
+.out-the-box-upsell-btn:hover {
+   background-color: #4b8b99;
+   color: #FFFFFF;
+}
+.out-the-box-upsell-desc {
+   font-size: 12px;
+   padding: 4px 0 0;
+}
+*/

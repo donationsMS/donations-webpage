@@ -1,0 +1,854 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	overflow-x: hidden;
+	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+	box-sizing: border-box; /* Apply a natural box layout model to the document; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+}
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+/* Eliminates the flicker caused in the Top Bar elements when the transform animations are applied to the slider control buttons */ 
+body {
+	-webkit-backface-visibility: hidden;
+	margin: 10px !important;
+}
+
+body.show-main-menu #main-menu {
+    right: 0px;
+}
+
+*:focus {
+	outline: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    color: #5A5A5A;
+    font-size: 14px;
+	font-weight: 300;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+}
+
+p {
+    margin-bottom: 1.1em;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 110px;
+	line-height: 0.96;
+	top: 0;
+	left: 0;
+	font-family: "Lora";
+	font-style: italic;
+	position: absolute;
+}
+
+blockquote {
+	min-height: 40px;
+	content: "\201C";
+	margin: 0 0 0.6em 0;
+	padding: 0 0 0 2.4em;
+	font-size: 21px;
+	font-style: italic;
+	position: relative;
+}
+
+address {
+    margin: 0 0 1.1em;
+}
+
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 14px;
+    font-size: 1.5rem;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+    font: 14px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+mark,
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+sup,
+sub {
+    font-size: 75%;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: .5ex;
+}
+
+small {
+    font-size: 75%;
+}
+
+big {
+    font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+hr {
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+    margin: 0 0 1.5em 3em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 1.5em 1.5em;
+}
+
+img {
+    height: auto; /* Make sure images are scaled correctly. */
+    max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+    margin: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: 300;
+    line-height: 1.1em;
+    word-wrap: normal;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: .8em;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: .55em;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: .8em;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 1.1em;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 1.3em;
+}
+
+h6 {
+    font-size: 16px;
+    margin-bottom: 1.4em;
+}
+
+.entry-content code {
+    display: block;
+    background: #f7f7f7;
+    border: 1px solid #D8D8D8;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+    margin: 5px 0;
+    overflow-x: auto;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.1em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.1em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+Fallback CSS for Customizer Library Styles
+--------------------------------------------------------------*/
+
+/* Background Color */
+body,
+.content-container
+.masonry-grid-container article.blog-post-masonry-grid-layout,
+.site-content .rpwe-block li {
+	background: #FFFFFF; /* Fallback for when there is no custom background color defined. */
+}
+
+body.custom-background .content-container {
+	background: transparent;
+}
+
+.site-header .site-logo-area {
+	background-color: #FFFFFF;
+	
+    -webkit-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+     -moz-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+      -ms-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+       -o-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+          transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+}
+
+.site-header.transparent .site-logo-area {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Primary Color */
+.search-button .otb-fa-search,
+.search-button .otb-fa-search:hover,
+.widget_search .search-submit .otb-fa,
+.info-text em,
+.site-header .site-header-right a:hover,
+.site-header.transparent .site-header-right a:hover,
+.site-header.translucent .site-header-right a:hover,
+.main-navigation ul ul a:hover,
+.site-header .site-container .main-navigation ul ul a:hover,
+.main-navigation.transparent ul ul a:hover,
+.site-header.transparent .site-container .main-navigation ul ul a:hover,
+.woocommerce .woocommerce-breadcrumb a,
+.woocommerce-page .woocommerce-breadcrumb a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.site-content .widget-title,
+.site-content .rpwe-block h3 a,
+blockquote,
+.required,
+.color-text {
+    color: #0082cd;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+.site-content .rpwe-block li,
+.hentry,
+.paging-navigation,
+.widget-area .widget_search.focused *,
+.widget-area .widget,
+.search-results article {
+	border-color: #0082cd;
+}
+
+#comments .form-submit #submit,
+.no-results-btn,
+button,
+a.button,
+.widget-area .widget a.button,
+.widget_sow-button .ow-button-base a,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+hr,
+ul.sections > li hr.divider,
+.main-navigation li:hover .indicator,
+.main-navigation li.current_page_item .indicator,
+.main-navigation li.current-menu-item .indicator,
+.main-navigation li.current-menu-parent .indicator,
+.main-navigation li.current_page_parent .indicator,
+.main-navigation .search-button:hover .indicator,
+.side-aligned-social-links .social-links li,
+.site-footer-widgets .site-container .widgets-container .divider,
+.widget-area .widget h2.widget-title:after,
+.site-footer-widgets .widgets-container .widget h2.widgettitle:after,
+.woocommerce ul.products li.product a.add_to_cart_button,
+.woocommerce-page ul.products li.product a.add_to_cart_button,
+.woocommerce ul.products li.product a.button.product_type_simple,
+.woocommerce-page ul.products li.product a.button.product_type_simple,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce .cart-collaterals .shipping_calculator .button,
+.woocommerce-page .cart-collaterals .shipping_calculator .button,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page input.button,
+.woocommerce #review_form #respond .form-submit input,
+.woocommerce-page #review_form #respond .form-submit input,
+.wpcf7-submit,
+.site-footer-bottom-bar {
+    background-color: #0082cd;
+}
+
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+	border-top-color: #0082cd;
+}
+
+/* Secondary Color */
+.widget_search .search-submit .otb-fa:hover,
+.widget_citylogic_social_media_links_widget .social-links li a:hover,
+.site-content .rpwe-block h3.rpwe-title a:hover,
+.woocommerce .woocommerce-breadcrumb a:hover,
+.woocommerce-page .woocommerce-breadcrumb a:hover,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
+    color: #005b8f;
+}
+
+.main-navigation button:hover,
+#comments .form-submit #submit:hover,
+.no-results-btn:hover,
+button:hover,
+a.button:hover,
+.widget-area .widget a.button:hover,
+.widget_sow-button .ow-button-base a.ow-button-hover:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.side-aligned-social-links .social-links li:hover,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce .cart-collaterals .shipping_calculator .button,
+.woocommerce-page .cart-collaterals .shipping_calculator .button,
+.woocommerce a.button:hover,
+.woocommerce-page a.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce ul.products li.product a.add_to_cart_button:hover,
+.woocommerce-page ul.products li.product a.add_to_cart_button:hover,
+.woocommerce ul.products li.product a.button.product_type_simple:hover,
+.woocommerce-page ul.products li.product a.button.product_type_simple:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce #review_form #respond .form-submit input:hover,
+.woocommerce-page #review_form #respond .form-submit input:hover,
+wpcf7-submit:hover {
+    background-color: #005b8f;
+}
+
+/* Link Color */
+a,
+#cancel-comment-reply-link {
+	color: #788F98;
+}
+
+/* Link Rollover Color */
+a:hover,
+#cancel-comment-reply-link:hover,
+.widget-area .widget ul li a:hover,
+.site-footer-widgets .widget ul li a:hover {
+	color: #005b8f;
+}
+
+/* Mobile Menu Button Background Color */
+.site-header-right .header-menu-button {
+	background-color: #0082cd;
+}
+
+/* Mobile Menu Button Color */
+.site-header-right .header-menu-button .otb-fa.otb-fa-bars {
+	color: #FFFFFF;
+}
+.header-menu-button .otb-fa.otb-fa-bars {
+	color: #5A5A5A;
+}
+
+/* Footer Color */
+.site-footer {
+	background-color: #F4F4F4;
+}
+
+/* Site Title Font */
+.site-header .branding .title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Site Title Font Color */
+.site-header .branding .title {
+	color: #0082cd;
+}
+
+/* Heading Font */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.widget-area .widget h2,
+.site-footer-widgets ul li h2.widgettitle,
+.header-image .overlay .opacity h1,
+.header-image .overlay .opacity h2,
+.slider-container.default .slider .slide .overlay .opacity h1,
+.slider-container.default .slider .slide .overlay .opacity h2,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce a.button.alt,
+.woocommerce table.cart th,
+.woocommerce-page #content table.cart th,
+.woocommerce-page table.cart th,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce table.cart inputinput[type="submit"],
+.woocommerce-page #content table.cart inputinput[type="submit"],
+.woocommerce-page table.cart inputinput[type="submit"],
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+button,
+a.button,
+.widget-area .widget a.button,
+.widget_sow-button .ow-button-base a,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Heading Font Weight */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.widget-area .widget h2,
+.site-footer-widgets ul li h2.widgettitle {
+	font-weight: 400;
+}
+
+/* Heading Font Letter Spacing */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.widget-area .widget h2,
+.site-footer-widgets ul li h2.widgettitle,
+.header-image .overlay .opacity h1,
+.header-image .overlay .opacity h2,
+.slider-container.default .slider .slide .overlay .opacity h1,
+.slider-container.default .slider .slide .overlay .opacity h2 {
+	letter-spacing: 0px;
+}
+
+/* Heading Font Color */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.widget-area .widget h2,
+.site-footer-widgets .widgettitle {
+    color: #5A5A5A;
+}
+
+/* Body Font */
+body,
+input,
+textarea,
+.site-header .site-top-bar a,
+.site-header .site-header-right a,
+.site-header .site-header-right .main-navigation ul ul a,
+.main-navigation ul ul a,
+.widget-area .rpwe-block h3.rpwe-title a,
+.breadcrumbs,
+#cancel-comment-reply-link,
+.site-footer-widgets .widget a,
+.header-image .overlay .opacity,
+.slider-container.default .slider .slide .overlay-container .overlay .opacity,
+.woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Body Font Weight */
+body,
+.site-header .site-top-bar a,
+.site-header .site-header-right a,
+.breadcrumbs,
+#cancel-comment-reply-link,
+.site-footer-widgets .widget a {
+	font-weight: 400;
+}
+
+/* Body Font Color */
+body,
+.widget_citylogic_social_media_links_widget .social-links li a,
+.breadcrumbs,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea,
+.search-block .search-field,
+.select2-drop,
+.select2-container .select2-choice,
+.select2-results .select2-highlighted,
+.main-navigation ul ul a,
+.main-navigation.transparent ul ul a,
+.site-header .site-container .main-navigation ul ul a,
+.widget-area .widget ul li a,
+.widget-area .rpwe_widget .rpwe-block h3 a,
+.site-footer-widgets .widget ul li a,
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce-page .woocommerce-breadcrumb,
+.woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce #content .quantity input.qty,
+.woocommerce .quantity input.qty,
+.woocommerce-page #content .quantity input.qty,
+.woocommerce-page .quantity input.qty,
+.woocommerce ul.products li.product .price,
+.woocommerce #content ul.products li.product span.price,
+.woocommerce-page #content ul.products li.product span.price,
+.woocommerce #content div.product p.price,
+.woocommerce-page #content div.product p.price,
+.woocommerce-page div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce div.product span.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page div.product span.price,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #reviews #comments ol.commentlist li .meta,
+#add_payment_method #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+	color: #5A5A5A;
+}
+
+.rpwe-time,
+.select2-default {
+	color: rgba(88, 88, 90, 0.7) !important;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+:-moz-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+::-moz-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+:-ms-input-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+
+/* Body Font Letter Spacing */
+body,
+.site-header .site-top-bar,
+.widget_citylogic_social_media_links_widget .social-links li a,
+.breadcrumbs,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea,
+#cancel-comment-reply-link,
+.search-block .search-field,
+.select2-drop,
+.select2-container .select2-choice,
+.select2-results .select2-highlighted,
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce-page .woocommerce-breadcrumb,
+.woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce #content .quantity input.qty,
+.woocommerce .quantity input.qty,
+.woocommerce-page #content .quantity input.qty,
+.woocommerce-page .quantity input.qty,
+.woocommerce ul.products li.product .price,
+.woocommerce #content ul.products li.product span.price,
+.woocommerce-page #content ul.products li.product span.price,
+.woocommerce #content div.product p.price,
+.woocommerce-page #content div.product p.price,
+.woocommerce-page div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce div.product span.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page div.product span.price,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #reviews #comments ol.commentlist li .meta,
+#add_payment_method #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+	letter-spacing: 0;
+}
+
+/* Site Logo Area Solid Font Color */
+.site-header .branding .description,
+.site-header .site-header-right, 
+.site-header .site-header-right a {
+	color: #5A5A5A;
+}
+
+.site-header.forced-solid .branding .description,
+.site-header.forced-solid .site-header-right, 
+.site-header.forced-solid .site-header-right a:not(:hover) {
+	color: #5A5A5A !important;
+}
+
+/* Site Logo Area Transparent Font Color */
+.site-header.transparent .branding .description,
+.site-header.transparent .site-header-right, 
+.site-header.transparent .site-header-right a {
+	color: #FFFFFF;
+}
+
+/* Slider Text Overlay Font Color */
+.slider-container.default .slider .slide .overlay-container .overlay .opacity h1,
+.slider-container.default .slider .slide .overlay-container .overlay .opacity h2,
+.slider-container.default .slider .slide .overlay-container .overlay .opacity {
+	color: #FFFFFF;
+}
+
+/* Header Image Text Overlay Font Color */
+.header-image .overlay .opacity h1,
+.header-image .overlay .opacity h2,
+.header-image .overlay .opacity {
+	color: #FFFFFF;
+}
+
+/* Navigation Menu Color */
+.main-navigation {
+	background-color: #F1F1F0;
+}
+
+.main-navigation.transparent {
+	background-color: rgba(241, 241, 240, 0);
+}
+
+/* Navigation Menu Font */
+.site-header .site-header-right .main-navigation .menu > ul > li > a,
+.site-header .site-header-right .main-navigation ul.menu > li > a,
+.main-navigation .menu > ul > li > a,
+.main-navigation ul.menu > li > a,
+.main-navigation .search-button a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-navigation .menu > ul > li > a,
+.main-navigation ul.menu > li > a {
+	font-weight: 500;
+}
+
+/* Navigation Menu Solid Font Color */
+.main-navigation .menu > ul > li > a,
+.main-navigation .menu > ul > li > a:hover,
+.main-navigation ul.menu > li > a,
+.main-navigation ul.menu > li > a:hover,
+.main-navigation .search-button a,
+.main-navigation .search-button a:hover,
+.header-menu-button .otb-fa.otb-fa-bars {
+	color: #5A5A5A;
+}
+
+.site-header.forced-solid .main-navigation .menu > ul > li > a,
+.site-header.forced-solid .main-navigation .menu > ul > li > a:hover,
+.site-header.forced-solid .main-navigation ul.menu > li > a,
+.site-header.forced-solid .main-navigation ul.menu > li > a:hover,
+.site-header.forced-solid .main-navigation .search-button a,
+.site-header.forced-solid .main-navigation .search-button a:hover {
+	color: #5A5A5A !important;
+}
+
+/* Navigation Menu Transparent Font Color */
+.main-navigation.transparent .menu > ul > li > a,
+.main-navigation.transparent ul.menu > li > a,
+.site-header.transparent .site-container .main-navigation .menu > ul > li > a,
+.site-header.transparent .site-container .main-navigation ul.menu > li > a,
+.main-navigation .search-button a,
+.site-header.transparent .site-container .main-navigation .search-button a,
+.main-navigation.transparent .search-button .otb-fa-search,
+.site-header.transparent .site-container .main-navigation .search-button .otb-fa-search {
+	color: #FFFFFF;
+}
+
+/* Slider overlay background color */
+.slider-container.default .slider .slide .opacity {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Slider text overlay background color and button rollover color */
+.slider-container.default .slider .slide .overlay-container .opacity,
+.slider-container.default .slider .slide .overlay-container .opacity-left,
+.slider-container.default .slider .slide .overlay-container .opacity-right {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Header Image overlay background color */
+.header-image .opacity {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Header Image text overlay background color */
+.header-image .overlay-container .opacity,
+.header-image .overlay-container .opacity-left,
+.header-image .overlay-container .opacity-right {
+	background-color: rgba(255, 255, 255, 0);
+}

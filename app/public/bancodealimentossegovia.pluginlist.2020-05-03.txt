@@ -1,0 +1,32 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.7.1
+  http://backwpup.com
+  Blog Name: bancodealimentossegovia
+  Blog URL: http://bancodealimentossegovia.local
+  Generated on: 2020-05-03 13:02.55
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+BackWPup (v.3.7.1) from Inpsyde GmbH
+	http://backwpup.com
+Elementor (v.2.9.8) from Elementor.com
+	https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash
+LIQUID BLOCKS (v.1.0.5) from LIQUID DESIGN Ltd.
+	https://lqd.jp/wp/plugin.html
+Redsys WooCommerce (v.3.0.1) from Redsys
+	http://www.redsys.es
+WooCommerce (v.4.0.1) from Automattic
+	https://woocommerce.com/
+
+Active plugins:
+------------------------------
+BackWPup
+Elementor
+LIQUID BLOCKS
+Redsys WooCommerce
+WooCommerce
+
+Inactive plugins:
+------------------------------

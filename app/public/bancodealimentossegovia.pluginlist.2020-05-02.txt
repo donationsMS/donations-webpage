@@ -1,0 +1,20 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.7.1
+  http://backwpup.com
+  Blog Name: bancodealimentossegovia
+  Blog URL: http://bancodealimentossegovia.local
+  Generated on: 2020-05-02 12:52.46
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+BackWPup (v.3.7.1) from Inpsyde GmbH
+	http://backwpup.com
+
+Active plugins:
+------------------------------
+BackWPup
+
+Inactive plugins:
+------------------------------

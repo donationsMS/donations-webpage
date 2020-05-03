@@ -1,0 +1,154 @@
+/*--------------------------------------------------------------
+CityLogic - Header Centered Styling
+--------------------------------------------------------------*/
+
+/*
+.site-header.centered .info-text {
+    display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 1px 0 0;
+	padding: 5px 0 5px 0;
+    vertical-align: middle;
+    font-size: 12px;
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.site-header.centered .search-btn {
+    margin: 0 0 0 1px;
+	display: block;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 0 4px;	
+}
+.site-header.centered .header-cart {
+    padding: 0 0 0 8px;
+}
+.site-header.centered .header-cart-contents {
+	font-size: 12px;
+	display: inline-block;
+    vertical-align: top;	
+}
+*/
+
+.site-header.centered .branding {
+    width: 100%;
+    text-align: center;
+}
+.site-header.centered .branding a {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+}
+.site-header.centered .branding img {
+    display: block;
+    margin: 0;
+}
+
+.site-header.centered .shop-links {
+	margin: 3px 0 3px 0;
+}
+
+.site-header.centered .account-link {
+    /*box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);*/
+    display: inline-block;
+    margin: 2px 0 0;
+    /*padding: 0 5px 0 0;*/
+	padding: 0;
+    line-height: 14px;
+}
+.site-header.centered .account-link a {
+    /*padding: 0 5px 0px;*/
+	padding: 0;
+    border-radius: 3px;
+    font-size: 12px;
+	line-height: 20px;
+	
+	display: inline-block;
+    vertical-align: top;	
+	
+    -webkit-transition: all 0.05s linear 0s;
+     -moz-transition: all 0.05s linear 0s;
+      -ms-transition: all 0.05s linear 0s;
+       -o-transition: all 0.05s linear 0s;
+          transition: all 0.05s linear 0s;
+}
+
+.site-header.centered .site-title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    margin: 0;
+    padding: 17px 0 0;
+}
+.site-header.centered .description {
+    margin: 0;
+	/*
+    padding: 4px 0 0;
+	*/
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.site-header.centered .branding.title-below img {
+	margin: 0 0 10px 0;
+}
+.site-header.centered .branding.title-right {
+	width: auto;
+}
+.site-header.centered .branding.title-right img {
+	margin: 0 10px 0 0;
+	float: left;
+}
+.site-header.centered .branding.title-right .title_and_tagline {
+	text-align: left;
+	display: inline-block;
+}
+
+@media screen and (max-width: 780px) {
+	.site-header.centered .branding.title-right img {
+		margin: 0 auto 10px auto;
+		display: block;
+		float: none;
+	}
+	.site-header.centered .branding.title-right .title_and_tagline {
+		width: 100%;
+		text-align: center;
+	}
+
+	.site-header.centered .search-block {
+	    position: absolute;
+	    left: 50%;
+		width: 315px;
+	    margin-left: -157px;
+	}
+	.site-header.centered .info-text {
+		padding: 0;
+		font-size: 12px;
+	}
+
+	.site-header.centered .account-link {
+		margin-top: 0px;
+		/*padding: 0 3px 0 0;*/
+		padding: 0;
+	}
+	.site-header.centered .header-cart {
+		font-size: 10px;
+		padding: 0 0 0 9px;
+	}
+	.social-links li {
+		font-size: 16px;
+	    float: left;
+	    padding: 1px 0 0 13px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.site-header.centered .search-block {
+	    position: absolute;
+	    left: 50%;
+		width: 223px;
+	    margin-left: -111px;
+	}
+}
