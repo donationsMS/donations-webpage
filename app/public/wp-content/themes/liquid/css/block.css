@@ -1,0 +1,157 @@
+@charset "utf-8";
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/
+*/
+.mainarea {
+    overflow: visible;
+}
+.wp-block-quote, .wp-block-gallery, .wp-block-list, .wp-block-cover, .wp-block-file, .wp-block-video, .wp-block-button, .wp-block-columns, .wp-block-media-text, .wp-block-more, .wp-block-nextpage {
+    margin-bottom: 2rem;
+}
+.wp-block-separator {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.wp-block-column {
+    margin-bottom: 0;
+}
+.alignfull, .is-style-wide {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    clear: both;
+}
+.wp-block-image.alignfull img {
+    width: 100vw;
+    max-width: initial;
+}
+.alignwide {
+    position: relative;
+    width: calc( 100% + 2rem);
+    max-width: calc( 100% + 2rem);
+    left: -1rem;
+    clear: both;
+}
+.is-cropped img {
+    height: 100% !important;
+}
+.rounded-circle img {
+    border-radius: 50% !important;
+}
+.rounded img {
+    border-radius: .25rem!important;
+}
+.wp-block-gallery figcaption a {
+    color: #fff !important;
+}
+.wp-block-button a, .wp-block-button__link {
+    text-decoration: none;
+}
+.wp-block-pullquote {
+    border-bottom: 4px solid rgba(119, 119, 119, 0.1);
+    border-top: 4px solid rgba(119, 119, 119, 0.1);
+    padding: 4rem 0;
+    text-align: center;
+}a
+.wp-block-pullquote.is-style-solid-color {
+    border: 0 none;
+}
+.wp-block-pullquote blockquote {
+    border: 0 none;
+}
+.wp-block-pullquote blockquote:before {
+    display: none;
+}
+.wp-block-pullquote blockquote p {
+    margin-bottom: 1rem !important;
+}
+.wp-block-pullquote blockquote cite {
+    font-style: normal;
+}
+@media (min-width: 600px) {
+    .wp-block-column {
+        flex-basis: 100%;
+    }
+}
+
+/* color 00 */
+.has-liquid-theme-color {
+    color: #00a5d4;
+}
+.has-liquid-theme-background-color {
+    background-color: #00a5d4;
+}
+/* color 01 */
+.has-liquid-blue-background-color {
+    background-color: #32bdeb;
+}
+.has-liquid-blue-color {
+    color: #32bdeb !important;
+}
+/* color 02 */
+.has-liquid-dark-blue-background-color {
+    background-color: #00a5d4;
+}
+.has-liquid-dark-blue-color {
+    color: #00a5d4 !important;
+}
+/* color 03 */
+.has-liquid-red-background-color {
+    background-color: #eb6032;
+}
+.has-liquid-red-color {
+    color: #eb6032 !important;
+}
+/* color 04 */
+.has-liquid-orange-background-color {
+    background-color: #ff6900;
+}
+.has-liquid-orange-color {
+    color: #ff6900 !important;
+}
+/* color 05 */
+.has-liquid-pink-background-color {
+    background-color: #f6adc6;
+}
+.has-liquid-pink-color {
+    color: #f6adc6 !important;
+}
+/* color 06 */
+.has-liquid-yellow-background-color {
+    background-color: #fff100;
+}
+.has-liquid-yellow-color {
+    color: #fff100 !important;
+}
+/* color 07 */
+.has-liquid-green-background-color {
+    background-color: #3eb370;
+}
+.has-liquid-green-color {
+    color: #3eb370 !important;
+}
+/* color 08 */
+.has-liquid-purple-background-color {
+    background-color: #745399;
+}
+.has-liquid-purple-color {
+    color: #745399 !important;
+}
+/* color 09 */
+.has-liquid-white-background-color {
+    background-color: #ffffff;
+}
+.has-liquid-white-color {
+    color: #ffffff !important;
+}
+/* color 10 */
+.has-liquid-dark-gray-background-color {
+    background-color: #333333;
+}
+.has-liquid-dark-gray-color {
+    color: #333333 !important;
+}

@@ -1,2 +1,18 @@
 [02-May-2020 15:00:50] NOTICE: fpm is running, pid 28670
 [02-May-2020 15:00:50] NOTICE: ready to handle connections
+[03-May-2020 11:48:23] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 11:48:23] ERROR: FPM initialization failed
+[03-May-2020 11:48:24] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 11:48:24] ERROR: FPM initialization failed
+[03-May-2020 11:48:24] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 11:48:24] ERROR: FPM initialization failed
+[03-May-2020 11:48:25] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 11:48:25] ERROR: FPM initialization failed
+[03-May-2020 12:42:32] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 12:42:32] ERROR: FPM initialization failed
+[03-May-2020 12:42:33] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 12:42:33] ERROR: FPM initialization failed
+[03-May-2020 12:42:33] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 12:42:33] ERROR: FPM initialization failed
+[03-May-2020 12:42:34] ERROR: Another FPM instance seems to already listen on /home/mgonzalo/.config/Local/run/xzazNZiWo/php/php-fpm.socket
+[03-May-2020 12:42:34] ERROR: FPM initialization failed

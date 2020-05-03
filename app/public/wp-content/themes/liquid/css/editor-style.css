@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url( 'bootstrap.min.css' );
+@import url( 'icomoon.css' );
+@import url( 'block.css' );
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/
+*/
+.editor-post-title__block .editor-post-title__input, .editor-block-list__layout {
+    font-family: Verdana, "游ゴシック Medium", "Yu Gothic Medium", YuGothic, "游ゴシック体", sans-serif;
+}
+.editor-post-title__block .editor-post-title__input a, .editor-block-list__layout a {
+    text-decoration: underline;
+}
+.block-editor-block-list__block [data-type="core/paragraph"] p {
+    line-height: 1.5;
+}
+hr {
+    clear: both;
+}
+.collapse {
+    display: block !important;
+}
+.d-none, .d-sm-none, .d-md-none, .d-lg-none, .d-xl-none {
+    display: block !important;
+    border: 3px dashed #ccc;
+    opacity: 0.5;
+}
+table.d-none, table.d-sm-none, table.d-md-none, table.d-lg-none, table.d-xl-none {
+    display: table !important;
+}
