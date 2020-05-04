@@ -1,0 +1,61 @@
+
+.wp-block {
+	max-width: 1140px;
+}
+
+/* Headings */
+.editor-post-title__block .editor-post-title__input,
+.edit-post-visual-editor .editor-block-list__block h1.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h2.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h3.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h4.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h5.mce-content-body,
+.edit-post-visual-editor .editor-block-list__block h6.mce-content-body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #5A5A5A;
+	line-height: 1.1em;
+}
+
+.editor-post-title__block .editor-post-title__input,
+.edit-post-visual-editor .editor-block-list__block h1.mce-content-body {
+    font-size: 30px;
+    margin-bottom: .8em;
+}
+
+.edit-post-visual-editor .editor-block-list__block h2.mce-content-body {
+    font-size: 25px;
+    margin-bottom: .55em;
+}
+
+.edit-post-visual-editor .editor-block-list__block h3.mce-content-body {
+    font-size: 22px;
+    margin-bottom: .8em;
+}
+
+.edit-post-visual-editor .editor-block-list__block h4.mce-content-body {
+    font-size: 20px;
+    margin-bottom: 1.1em;
+}
+
+.edit-post-visual-editor .editor-block-list__block h5.mce-content-body {
+    font-size: 18px;
+    margin-bottom: 1.3em;
+}
+
+.edit-post-visual-editor .editor-block-list__block h6.mce-content-body {
+    font-size: 16px;
+    margin-bottom: 1.4em;
+}
+
+/* Body Font */
+.edit-post-visual-editor .editor-block-list__block-edit,
+.edit-post-visual-editor,
+.editor-styles-wrapper div.wp-block,
+.editor-styles-wrapper div.wp-block p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #5A5A5A;
+	line-height: 1.5;
+}
